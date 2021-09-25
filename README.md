@@ -16,7 +16,9 @@ Now before you run the script please make sure of the following :
 # Running the code
 
 Open the "timing.csv" file using notepad
+
 Enter your class timings and links in the "timing.csv" file
+
 An example is provided
 
 On windows: 
