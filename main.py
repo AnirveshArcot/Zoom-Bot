@@ -12,6 +12,10 @@ def login(classlink):
     pyautogui.press('enter')
     time.sleep(5)
 
+    cancel_btn=pyautogui.locateCenterOnScreen('cancel.png',grayscale=False,)
+    pyautogui.moveTo(cancel_btn)
+    pyautogui.click()
+
     launch_btn=pyautogui.locateOnScreen('lmeet_dark.png',grayscale=False, confidence=.5)
     pyautogui.moveTo(launch_btn)
     pyautogui.click()
@@ -20,6 +24,10 @@ def login(classlink):
     pyautogui.moveTo(launch_btn)
     pyautogui.click()
     time.sleep(1)
+
+    cancel_btn=pyautogui.locateCenterOnScreen('cancel.png',grayscale=False,)
+    pyautogui.moveTo(cancel_btn)
+    pyautogui.click()
 
     joinw_btn= pyautogui.locateCenterOnScreen('joinbrow_w.PNG')
     pyautogui.moveTo(joinw_btn)
@@ -52,6 +60,9 @@ while True:
         row=data.loc[data['time(24hrformat)'] == timern]
         link= str(row.iloc[0,1])
         login(link)
-        time.sleep(20)
+        time.sleep(40)
         print("Signed In")
+
+    
+    
 
