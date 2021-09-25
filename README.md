@@ -13,7 +13,7 @@ Now before you run the script please make sure of the following :
 4. If Chrome is not installed in its default directory then please change the code to match your needs.
 
 
-#Running the code
+# Running the code
 
 Open the "timing.csv" file using notepad
 Enter your class timings and links in the "timing.csv" file
