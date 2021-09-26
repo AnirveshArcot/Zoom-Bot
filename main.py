@@ -9,41 +9,41 @@ def login(classlink):
     webbrowser.open(classlink)
     time.sleep(5)
 
-    cancel_btn=pyautogui.locateCenterOnScreen('cancel.png',grayscale=False,)
+    cancel_btn=pyautogui.locateCenterOnScreen('Images\cancel.png',grayscale=False,)
     pyautogui.moveTo(cancel_btn)
     pyautogui.click()
 
-    launch_btn=pyautogui.locateOnScreen('lmeet_dark.png',grayscale=False, confidence=.5)
+    launch_btn=pyautogui.locateOnScreen('Images\lmeet_dark.png',grayscale=False, confidence=.5)
     pyautogui.moveTo(launch_btn)
     pyautogui.click()
 
-    launch_btn=pyautogui.locateOnScreen('lmeet.png',grayscale=False, confidence=.5)
+    launch_btn=pyautogui.locateOnScreen('Images\lmeet.png',grayscale=False, confidence=.5)
     pyautogui.moveTo(launch_btn)
     pyautogui.click()
     time.sleep(1)
 
-    cancel_btn=pyautogui.locateCenterOnScreen('cancel.png',grayscale=False,)
+    cancel_btn=pyautogui.locateCenterOnScreen('Images\cancel.png',grayscale=False,)
     pyautogui.moveTo(cancel_btn)
     pyautogui.click()
 
-    joinw_btn= pyautogui.locateCenterOnScreen('joinbrow_w.PNG')
+    joinw_btn= pyautogui.locateCenterOnScreen('Images\joinbrow_w.PNG')
     pyautogui.moveTo(joinw_btn)
     pyautogui.click()
 
-    joinb_btn= pyautogui.locateCenterOnScreen('joinbrow_b.PNG')
+    joinb_btn= pyautogui.locateCenterOnScreen('Images\joinbrow_b.PNG')
     pyautogui.moveTo(joinb_btn)
     pyautogui.click()
     time.sleep(2)
 
-    joinw_btn= pyautogui.locateCenterOnScreen('join_w.png',grayscale=False)
+    joinw_btn= pyautogui.locateCenterOnScreen('Images\join_w.png',grayscale=False)
     pyautogui.moveTo(joinw_btn)
     pyautogui.click()
 
-    joinb_btn= pyautogui.locateCenterOnScreen('join_b.png',grayscale=False)
+    joinb_btn= pyautogui.locateCenterOnScreen('Images\join_b.png',grayscale=False)
     pyautogui.moveTo(joinb_btn)
     pyautogui.click()
     
-    audio_btn=pyautogui.locateCenterOnScreen('inmeet.png',grayscale=False,)
+    audio_btn=pyautogui.locateCenterOnScreen('Images\inmeet.png',grayscale=False,)
     pyautogui.moveTo(audio_btn)
     pyautogui.click()
     time.sleep(10)
