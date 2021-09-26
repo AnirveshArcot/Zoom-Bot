@@ -11,6 +11,7 @@ Now before you run the script please make sure of the following :
 2. Login into the required zoom account on the browser 
 3. Google Chrome is installed in its deafault directory and is operational.
 4. If Chrome is not installed in its default directory then please change the code to match your needs.
+5. Chrome needs to be default web browser.
 
 
 # Running the code
