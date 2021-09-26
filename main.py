@@ -1,15 +1,12 @@
-import subprocess
 import pyautogui
 import time
 from datetime import datetime
 import pandas as pd 
+import webbrowser
 
 def login(classlink):
 
-    subprocess.call([ "C:\Program Files\Google\Chrome\Application\chrome.exe"])
-    time.sleep(2)
-    pyautogui.write(classlink)
-    pyautogui.press('enter')
+    webbrowser.open(classlink)
     time.sleep(5)
 
     cancel_btn=pyautogui.locateCenterOnScreen('cancel.png',grayscale=False,)
